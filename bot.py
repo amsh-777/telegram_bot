@@ -24,7 +24,6 @@ async def language_info_command(update: Update, context: CallbackContext):
         '4. C++: An extension of C that includes object-oriented features, used in systems/software development.\n'
         '5. Ruby: An interpreted, high-level language known for its simplicity and productivity.'
     )
-
 # Response handling
 def handle_responses(text: str) -> str:
     processed = text.lower()
